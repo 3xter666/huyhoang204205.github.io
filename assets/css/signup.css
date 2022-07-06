@@ -1,0 +1,25 @@
+body{
+    background-image: url(image/gayfurryporn.jpg);
+    background-repeat: no-repeat;
+
+    background-position:center;
+    background-size: cover;
+}
+.dangnhap{
+    background-image: url(image/gayfurryporn2.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    width: 230px;
+    border: 15px solid black;
+    padding: 100px;
+    margin:auto;
+    position: relative;
+    font-size: 100%;
+}
+.sign{
+    position:relative;
+    left:20px;
+}
+
