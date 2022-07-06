@@ -2,49 +2,50 @@
 <html>
     <head>
         <title>Sign up</title>
+        <link rel="stylesheet" href="signup.css">
     </head>
 
     <body>
         
-        <div>
+        <div class="dangnhap">
+            <br>
             <form action="signup.php" method="POST">
-                <div>
-                    <label for="fname">First name:</label>
+                <div class="sign">
+                    <label for="fname"></label>
                     <input type="text" id="fname" name="fname" placeholder="Họ" required>
                 </div>
                 <br>
-                <div>
-                    <label for="lname">Last name:</label>
+                <div class="sign">
+                    <label for="lname"></label>
                     <input type="text" id="lname" name="lname" placeholder="Tên" required>
                 </div>
                 <br>
-                <div>
-                    <label for="username">Username:</label>
+                <div class="sign">
+                    <label for="username"></label>
                     <input type="Username" id="username" name="username" placeholder="Tên đăng nhập" required>
                 </div>
                 <br>
-                <div>
-                    <label for="password">Password:</label>
+                <div class="sign">
+                    <label for="password"></label>
                     <input type="password" id="password" name="password" placeholder="Mật khẩu" required maxlength="16">
                 </div>
                 <br>
-                <div>
-                    <label for="email">Email:</label>
+                <div class="sign">
+                    <label for="email"></label>
                     <input type="email" id="email" name="email" placeholder="email@abc.xyz" required>
                 </div>
                 <br>
-                <div>
-                    <label for="phone">Phone number:</label>
-                    <input type="tel" id="phone" name="phone" placeholder="01234567891" >
+                <div class="sign">
+                    <label for="phone"</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Số điện thoại" >
                 </div>
                 <br>
-                <div>
-                    <label for="date">Birth day:</label>
+                <div class="sign">
+                    <label for="date"></label>
                     <input type="date" id="date" name="date" required>
                 </div>
                 <br>
-                <div>
-                    <label for="sex">Sex:</label>
+                <div class="sign">
                     <label for="male">Male</label>
                     <input type="radio" id="male" name="sex" value="male">
                     <label for="female">Female</label>
@@ -53,29 +54,30 @@
                     <input type="radio" id="other" name="sex" value="other">
                 </div>
                 <br>
-                <div>
+                <div class="sign">
                     <label for="payment">Payment:</label>
                     <select>
                         <option value="visa">Visa</option>
                         <option value="mastercard">Mastercard</option>
                         <option value="gitfcard">Giftcard</option>
                     </select>
-                    <input type="payment" id="payment" name="payment">
+                    <input type="payment" id="payment" name="payment" placeholder="Số tài khoản">
                 </div>
                 <br>
-                <div>
+                <div class="sign">
                     <label for="acp">Đồng ý điều khoản</label>
                     <input type="checkbox" id="acp" name="acp"> 
                 </div>
                 <br>
-                <div>
+                <div class="sign">
                     <input type="reset">
                 </div>
                 <br>
-                <div>
+                <div class="sign">
                     <input type="submit">
                 </div>
             </form>
+            <br>
         </div>
     </body>
 
